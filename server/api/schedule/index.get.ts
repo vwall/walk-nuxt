@@ -16,7 +16,5 @@ export default eventHandler(async (event) => {
 
   })
 
-  console.log('index.get.ts :21', response)
-
   return response
 })
