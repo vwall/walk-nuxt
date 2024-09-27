@@ -10,9 +10,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.13.0",
+    "@formkit/auto-animate": "^0.8.2",
+    "@nuxt/eslint": "^0.5.7",
+    "@nuxt/ui": "^2.18.6",
+    "@nuxt/ui-pro": "^1.4.3",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "nuxt": "^3.13.2",
+    "nuxt-auth-utils": "^0.3.9",
     "vue": "latest",
     "vue-router": "latest"
   },
-  "packageManager": "pnpm@8.15.1+sha1.8adba2d20330c02d3856e18c4eb3819d1d3ca6aa"
+  "packageManager": "pnpm@8.15.1+sha1.8adba2d20330c02d3856e18c4eb3819d1d3ca6aa",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
 }
